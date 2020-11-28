@@ -359,6 +359,24 @@ QPushButton:hover{
           <item row="0" column="0">
            <widget class="QTableWidget" name="mainTbl"/>
           </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="status_lb">
+            <property name="font">
+             <font>
+              <family>Orbitron</family>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">color: #fff</string>
+            </property>
+            <property name="text">
+             <string>Status of connection...</string>
+            </property>
+            <property name="alignment">
+             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
          </layout>
         </widget>
        </item>
