@@ -6,13 +6,13 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1500</width>
+    <width>1900</width>
     <height>1000</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>1500</width>
+    <width>1900</width>
     <height>1000</height>
    </size>
   </property>
@@ -228,7 +228,7 @@ QPushButton:active{
 }</string>
             </property>
             <property name="text">
-             <string>Search Employee</string>
+             <string>Load Employee Data</string>
             </property>
            </widget>
           </item>
@@ -357,9 +357,34 @@ QPushButton:hover{
          </property>
          <layout class="QGridLayout" name="gridLayout">
           <item row="0" column="0">
-           <widget class="QTableWidget" name="mainTbl"/>
+           <widget class="QTableView" name="tableView">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="font">
+             <font>
+              <family>MS PGothic</family>
+              <pointsize>10</pointsize>
+             </font>
+            </property>
+            <property name="autoFillBackground">
+             <bool>true</bool>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(255, 255, 255);</string>
+            </property>
+            <property name="gridStyle">
+             <enum>Qt::SolidLine</enum>
+            </property>
+            <property name="cornerButtonEnabled">
+             <bool>false</bool>
+            </property>
+           </widget>
           </item>
-          <item row="1" column="0">
+          <item row="2" column="0">
            <widget class="QLabel" name="status_lb">
             <property name="font">
              <font>
@@ -374,6 +399,28 @@ QPushButton:hover{
             </property>
             <property name="alignment">
              <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="font">
+             <font>
+              <family>Orbitron</family>
+              <pointsize>9</pointsize>
+             </font>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">QPushButton{
+	color: rgb(191, 191, 191);
+}
+QPushButton:hover{
+	color: rgb(255, 255, 255);
+	background-color: rgb(170, 85, 255);
+}</string>
+            </property>
+            <property name="text">
+             <string>Load</string>
             </property>
            </widget>
           </item>

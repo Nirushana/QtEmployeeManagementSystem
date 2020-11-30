@@ -15,6 +15,11 @@ public:
     explicit deleteemployee(QWidget *parent = nullptr);
     ~deleteemployee();
 
+private slots:
+    void on_updatebtn_clicked();
+
+    void on_deletebtn_clicked();
+
 private:
     Ui::deleteemployee *ui;
 };

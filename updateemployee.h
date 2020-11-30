@@ -15,6 +15,9 @@ public:
     explicit updateemployee(QWidget *parent = nullptr);
     ~updateemployee();
 
+private slots:
+    void on_updatebtn_clicked();
+
 private:
     Ui::updateemployee *ui;
 };

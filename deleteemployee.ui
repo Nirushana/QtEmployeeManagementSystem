@@ -70,7 +70,7 @@
      <string notr="true">color: rgb(255, 255, 255);</string>
     </property>
     <property name="text">
-     <string>**Type the Employee ID to Delete that Employees Data</string>
+     <string>**Type the Employee ID to Delete the Employees Data</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -98,7 +98,7 @@
      <string>Employee ID:</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="empIdtxt">
     <property name="geometry">
      <rect>
       <x>310</x>
@@ -117,6 +117,9 @@
      <font>
       <pointsize>12</pointsize>
      </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: #fff</string>
     </property>
    </widget>
    <widget class="QPushButton" name="cancelbtn">
@@ -160,7 +163,7 @@ QPushButton:hover{
      <string>Cancel</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="updatebtn">
+   <widget class="QPushButton" name="deletebtn">
     <property name="geometry">
      <rect>
       <x>600</x>
