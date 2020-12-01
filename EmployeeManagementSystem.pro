@@ -11,6 +11,7 @@ CONFIG += c++11
 SOURCES += \
     addnewemployee.cpp \
     deleteemployee.cpp \
+    employeepayment.cpp \
     main.cpp \
     mainwindow.cpp \
     updateemployee.cpp
@@ -18,12 +19,14 @@ SOURCES += \
 HEADERS += \
     addnewemployee.h \
     deleteemployee.h \
+    employeepayment.h \
     mainwindow.h \
     updateemployee.h
 
 FORMS += \
     addnewemployee.ui \
     deleteemployee.ui \
+    employeepayment.ui \
     mainwindow.ui \
     updateemployee.ui
 

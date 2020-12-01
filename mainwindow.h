@@ -8,6 +8,7 @@
 #include "addnewemployee.h"
 #include "updateemployee.h"
 #include "deleteemployee.h"
+#include "employeepayment.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -53,10 +54,13 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void on_transactionBnt_clicked();
+
 private:
     Ui::MainWindow *ui;
     addNewEmployee *empNew;
     updateemployee *empUpdate;
     deleteemployee *empDelete;
+    employeepayment *empPayment;
 };
 #endif // MAINWINDOW_H

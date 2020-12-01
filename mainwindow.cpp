@@ -70,3 +70,9 @@ void MainWindow::on_pushButton_2_clicked()
 
 
 }
+
+void MainWindow::on_transactionBnt_clicked()
+{
+    empPayment = new employeepayment(this); //to open new ui form
+    empPayment->show();
+}
