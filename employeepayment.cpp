@@ -8,6 +8,22 @@ employeepayment::employeepayment(QWidget *parent) :
     ui(new Ui::employeepayment)
 {
     ui->setupUi(this);
+
+
+    MainWindow conn;
+    QSqlQueryModel *model = new QSqlQueryModel();
+
+    conn.connOpen();
+    QSqlQuery *qry = new QSqlQuery(conn.db);
+
+    qry->prepare("select empId from EmployeeData");
+
+    qry->exec();
+    model->setQuery(*qry);
+    ui->comboBox->setModel(model);
+
+    conn.connClose();
+    qDebug() << (model->rowCount());
 }
 
 employeepayment::~employeepayment()
@@ -19,7 +35,7 @@ void employeepayment::on_updatebtn_clicked()
 {
     MainWindow conn;
     QString empId, empSalary, empPayDate, empPayStatus;
-    empId = ui->empIDtxt->text();
+    empId = ui->comboBox->currentText();
     empSalary = ui->empSalarytxt->text();
     empPayDate = ui->empPayDatetxt->text();
     empPayStatus = ui->empPayStatustxt->text();

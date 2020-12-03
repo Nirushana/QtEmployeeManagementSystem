@@ -16,6 +16,11 @@ addNewEmployee::addNewEmployee(QWidget *parent) :
             ui->status_label->setText("Database Connected");
         }
 
+        ui->comboBox->addItem("Tech");
+        ui->comboBox->addItem("Finance");
+        ui->comboBox->addItem("Marketing");
+        ui->comboBox->addItem("R&D");
+
 }
 
 addNewEmployee::~addNewEmployee()
@@ -30,12 +35,19 @@ void addNewEmployee::on_addbtn_clicked()
     empId = ui->empIDtxt->text();
     empName = ui->empNametxt->text();
     empDob = ui->empBDtxt->text();
-    empGender = ui->empGendertxt->text();
+    empGender = "";
     empNumber = ui->empNumbertxt->text();
     empEmail = ui->empEmailtxt->text();
     empAddress1 = ui->empAD1txt->text();
     empAddress2 = ui->empAD2txt->text();
-    empDepartment = ui->empDPtxt->text();
+    empDepartment = ui->comboBox->currentText();
+
+    if(ui->radioButton->isChecked()){
+        empGender = ui->radioButton->text();
+    }
+    if(ui->radioButton_2->isChecked()){
+        empGender = ui->radioButton_2->text();
+    }
 
     if(!conn.connOpen()){
 

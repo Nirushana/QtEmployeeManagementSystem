@@ -7,6 +7,23 @@ deleteemployee::deleteemployee(QWidget *parent) :
     ui(new Ui::deleteemployee)
 {
     ui->setupUi(this);
+
+
+    /*Load Data to the table*/
+    MainWindow conn;
+    QSqlQueryModel *model = new QSqlQueryModel();
+
+    conn.connOpen();
+    QSqlQuery *qry = new QSqlQuery(conn.db);
+
+    qry->prepare("select empId from EmployeeData");
+
+    qry->exec();
+    model->setQuery(*qry);
+    ui->comboBox->setModel(model);
+
+    conn.connClose();
+    qDebug() << (model->rowCount());
 }
 
 deleteemployee::~deleteemployee()
@@ -22,8 +39,8 @@ void deleteemployee::on_updatebtn_clicked(){
 void deleteemployee::on_deletebtn_clicked()
 {
     MainWindow conn;
-    QString empId, empName, empDob, empGender, empNumber, empEmail, empAddress1, empAddress2, empDepartment;
-    empId = ui->empIdtxt->text();
+    QString empId;
+    empId = ui->comboBox->currentText();
 
 
 

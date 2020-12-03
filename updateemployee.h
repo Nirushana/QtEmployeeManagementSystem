@@ -18,6 +18,8 @@ public:
 private slots:
     void on_updatebtn_clicked();
 
+    void on_comboBox_2_currentIndexChanged(const QString &arg1);
+
 private:
     Ui::updateemployee *ui;
 };

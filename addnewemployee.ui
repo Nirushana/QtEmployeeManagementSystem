@@ -34,8 +34,8 @@
      <rect>
       <x>0</x>
       <y>80</y>
-      <width>831</width>
-      <height>481</height>
+      <width>733</width>
+      <height>484</height>
      </rect>
     </property>
     <property name="minimumSize">
@@ -74,6 +74,239 @@
      <property name="verticalSpacing">
       <number>23</number>
      </property>
+     <item row="10" column="1">
+      <widget class="QLineEdit" name="empAD2txt">
+       <property name="minimumSize">
+        <size>
+         <width>400</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>600</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="0">
+      <widget class="QLabel" name="empAD1lb">
+       <property name="minimumSize">
+        <size>
+         <width>300</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Orbitron</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #fff</string>
+       </property>
+       <property name="text">
+        <string>Employee Address 1:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="empNumbertxt">
+       <property name="minimumSize">
+        <size>
+         <width>400</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>600</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="empNumberlb">
+       <property name="minimumSize">
+        <size>
+         <width>300</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Orbitron</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #fff</string>
+       </property>
+       <property name="text">
+        <string>Employee Mobile Number:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="empIDtxt">
+       <property name="minimumSize">
+        <size>
+         <width>400</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>600</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="10" column="0">
+      <widget class="QLabel" name="empAD2lb">
+       <property name="minimumSize">
+        <size>
+         <width>300</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Orbitron</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #fff</string>
+       </property>
+       <property name="text">
+        <string>Employee Address 2:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="9" column="1">
+      <widget class="QLineEdit" name="empAD1txt">
+       <property name="minimumSize">
+        <size>
+         <width>400</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>600</width>
+         <height>16777215</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="11" column="0">
+      <widget class="QLabel" name="empDPlb">
+       <property name="minimumSize">
+        <size>
+         <width>300</width>
+         <height>25</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Orbitron</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #fff</string>
+       </property>
+       <property name="text">
+        <string>Employee Department:</string>
+       </property>
+       <property name="alignment">
+        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="empBDtxt">
+       <property name="minimumSize">
+        <size>
+         <width>400</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>600</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(255, 255, 255)</string>
+       </property>
+      </widget>
+     </item>
+     <item row="8" column="0">
+      <widget class="QLabel" name="empEmaillb">
+       <property name="minimumSize">
+        <size>
+         <width>300</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>20</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Orbitron</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: #fff</string>
+       </property>
+       <property name="text">
+        <string>Employee Email:</string>
+       </property>
+      </widget>
+     </item>
      <item row="0" column="0">
       <widget class="QLabel" name="empIDlb">
        <property name="minimumSize">
@@ -101,84 +334,22 @@
        </property>
       </widget>
      </item>
-     <item row="4" column="0">
-      <widget class="QLabel" name="empNumberlb">
+     <item row="8" column="1">
+      <widget class="QLineEdit" name="empEmailtxt">
        <property name="minimumSize">
         <size>
-         <width>300</width>
-         <height>25</height>
+         <width>400</width>
+         <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>16777215</width>
-         <height>20</height>
+         <width>600</width>
+         <height>16777215</height>
         </size>
-       </property>
-       <property name="font">
-        <font>
-         <family>Orbitron</family>
-        </font>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: #fff</string>
-       </property>
-       <property name="text">
-        <string>Employee Mobile Number:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="0">
-      <widget class="QLabel" name="empEmaillb">
-       <property name="minimumSize">
-        <size>
-         <width>300</width>
-         <height>20</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>16777215</width>
-         <height>20</height>
-        </size>
-       </property>
-       <property name="font">
-        <font>
-         <family>Orbitron</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: #fff</string>
-       </property>
-       <property name="text">
-        <string>Employee Email:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="6" column="0">
-      <widget class="QLabel" name="empAD1lb">
-       <property name="minimumSize">
-        <size>
-         <width>300</width>
-         <height>20</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>16777215</width>
-         <height>20</height>
-        </size>
-       </property>
-       <property name="font">
-        <font>
-         <family>Orbitron</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: #fff</string>
-       </property>
-       <property name="text">
-        <string>Employee Address 1:</string>
+        <string notr="true">color: rgb(255, 255, 255)</string>
        </property>
       </widget>
      </item>
@@ -209,22 +380,30 @@
        </property>
       </widget>
      </item>
-     <item row="6" column="1">
-      <widget class="QLineEdit" name="empAD1txt">
+     <item row="3" column="0">
+      <widget class="QLabel" name="empGenderlb">
        <property name="minimumSize">
         <size>
-         <width>400</width>
-         <height>30</height>
+         <width>300</width>
+         <height>25</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>600</width>
-         <height>16777215</height>
+         <width>16777215</width>
+         <height>20</height>
         </size>
        </property>
+       <property name="font">
+        <font>
+         <family>Orbitron</family>
+        </font>
+       </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255)</string>
+        <string notr="true">color: #fff</string>
+       </property>
+       <property name="text">
+        <string>Employee Gender:</string>
        </property>
       </widget>
      </item>
@@ -247,23 +426,89 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="1">
-      <widget class="QLineEdit" name="empIDtxt">
+     <item row="3" column="1">
+      <widget class="QFrame" name="frame_2">
        <property name="minimumSize">
         <size>
          <width>400</width>
-         <height>30</height>
+         <height>40</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>600</width>
-         <height>30</height>
+         <width>400</width>
+         <height>40</height>
         </size>
        </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255)</string>
+       <property name="font">
+        <font>
+         <pointsize>6</pointsize>
+        </font>
        </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QRadioButton" name="radioButton">
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>16</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Orbitron</family>
+            <pointsize>6</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: #fff</string>
+          </property>
+          <property name="text">
+           <string>Male</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QRadioButton" name="radioButton_2">
+          <property name="minimumSize">
+           <size>
+            <width>200</width>
+            <height>16</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>200</width>
+            <height>30</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Orbitron</family>
+            <pointsize>7</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">color: #fff</string>
+          </property>
+          <property name="text">
+           <string>Female</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
       </widget>
      </item>
      <item row="2" column="0">
@@ -293,56 +538,12 @@
        </property>
       </widget>
      </item>
-     <item row="7" column="1">
-      <widget class="QLineEdit" name="empAD2txt">
+     <item row="11" column="1">
+      <widget class="QComboBox" name="comboBox">
        <property name="minimumSize">
         <size>
          <width>400</width>
          <height>30</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>600</width>
-         <height>16777215</height>
-        </size>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255)</string>
-       </property>
-      </widget>
-     </item>
-     <item row="4" column="1">
-      <widget class="QLineEdit" name="empNumbertxt">
-       <property name="minimumSize">
-        <size>
-         <width>400</width>
-         <height>30</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>600</width>
-         <height>16777215</height>
-        </size>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255)</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="0">
-      <widget class="QLabel" name="empGenderlb">
-       <property name="minimumSize">
-        <size>
-         <width>300</width>
-         <height>25</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>16777215</width>
-         <height>20</height>
         </size>
        </property>
        <property name="font">
@@ -350,144 +551,37 @@
          <family>Orbitron</family>
         </font>
        </property>
-       <property name="styleSheet">
-        <string notr="true">color: #fff</string>
-       </property>
-       <property name="text">
-        <string>Employee Gender:</string>
-       </property>
-      </widget>
-     </item>
-     <item row="2" column="1">
-      <widget class="QLineEdit" name="empBDtxt">
-       <property name="minimumSize">
-        <size>
-         <width>400</width>
-         <height>30</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>600</width>
-         <height>30</height>
-        </size>
+       <property name="autoFillBackground">
+        <bool>false</bool>
        </property>
        <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255)</string>
+        <string notr="true">color: rgb(255, 255, 255);
+
+</string>
        </property>
-      </widget>
-     </item>
-     <item row="8" column="0">
-      <widget class="QLabel" name="empDPlb">
-       <property name="minimumSize">
+       <property name="editable">
+        <bool>false</bool>
+       </property>
+       <property name="currentText">
+        <string/>
+       </property>
+       <property name="insertPolicy">
+        <enum>QComboBox::InsertAtBottom</enum>
+       </property>
+       <property name="minimumContentsLength">
+        <number>2</number>
+       </property>
+       <property name="iconSize">
         <size>
-         <width>300</width>
-         <height>25</height>
+         <width>16</width>
+         <height>15</height>
         </size>
        </property>
-       <property name="maximumSize">
-        <size>
-         <width>16777215</width>
-         <height>20</height>
-        </size>
+       <property name="duplicatesEnabled">
+        <bool>false</bool>
        </property>
-       <property name="font">
-        <font>
-         <family>Orbitron</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: #fff</string>
-       </property>
-       <property name="text">
-        <string>Employee Department:</string>
-       </property>
-       <property name="alignment">
-        <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-       </property>
-      </widget>
-     </item>
-     <item row="8" column="1">
-      <widget class="QLineEdit" name="empDPtxt">
-       <property name="minimumSize">
-        <size>
-         <width>400</width>
-         <height>30</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>600</width>
-         <height>16777215</height>
-        </size>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255)</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="1">
-      <widget class="QLineEdit" name="empEmailtxt">
-       <property name="minimumSize">
-        <size>
-         <width>400</width>
-         <height>30</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>600</width>
-         <height>16777215</height>
-        </size>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255)</string>
-       </property>
-      </widget>
-     </item>
-     <item row="3" column="1">
-      <widget class="QLineEdit" name="empGendertxt">
-       <property name="minimumSize">
-        <size>
-         <width>400</width>
-         <height>30</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>600</width>
-         <height>16777215</height>
-        </size>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: rgb(255, 255, 255)</string>
-       </property>
-      </widget>
-     </item>
-     <item row="7" column="0">
-      <widget class="QLabel" name="empAD2lb">
-       <property name="minimumSize">
-        <size>
-         <width>300</width>
-         <height>25</height>
-        </size>
-       </property>
-       <property name="maximumSize">
-        <size>
-         <width>16777215</width>
-         <height>20</height>
-        </size>
-       </property>
-       <property name="font">
-        <font>
-         <family>Orbitron</family>
-        </font>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">color: #fff</string>
-       </property>
-       <property name="text">
-        <string>Employee Address 2:</string>
+       <property name="frame">
+        <bool>false</bool>
        </property>
       </widget>
      </item>
