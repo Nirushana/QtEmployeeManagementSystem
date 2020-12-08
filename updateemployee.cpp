@@ -15,7 +15,7 @@ updateemployee::updateemployee(QWidget *parent) :
     ui->comboBox->addItem("Marketing");
     ui->comboBox->addItem("R&D");
 
-    /*Load Data to the table*/
+
     MainWindow conn;
     QSqlQueryModel *model = new QSqlQueryModel();
 
@@ -71,9 +71,11 @@ void updateemployee::on_updatebtn_clicked()
     {
        QMessageBox::information(this,tr("Data Upodated to Database"), tr("Data Updated Successfully"));
        conn.connClose();
+       close();
     }
     else{
         QMessageBox::critical(this,tr("error::"), qry.lastError().text());
+        close();
     }
 }
 
@@ -96,6 +98,14 @@ void updateemployee::on_comboBox_2_currentIndexChanged(const QString &arg1)
     if(qry.exec("Select * from EmployeeData where empId='"+empID+"'"))
     {
       while(qry.next()){
+          QString gender = qry.value(3).toString();
+          qDebug()<<gender;
+          if(gender== "Male"){
+              ui->radioButton->setChecked(true);
+          }
+          else{
+              ui->radioButton_2->setChecked(true);
+          }
           ui->empNametxt->setText(qry.value(1).toString());
           ui->empBDtxt->setText(qry.value(2).toString());
           ui->empNumbertxt->setText(qry.value(4).toString());
@@ -105,8 +115,22 @@ void updateemployee::on_comboBox_2_currentIndexChanged(const QString &arg1)
           ui->comboBox->setCurrentText(qry.value(8).toString());
       }
        conn.connClose();
+
     }
     else{
         QMessageBox::critical(this,tr("error::"), qry.lastError().text());
+
     }
+}
+
+void updateemployee::on_radioButton_clicked()
+{
+    ui->radioButton->setChecked(true);
+    ui->radioButton_2->setChecked(false);
+}
+
+void updateemployee::on_radioButton_2_clicked()
+{
+    ui->radioButton->setChecked(false);
+    ui->radioButton_2->setChecked(true);
 }

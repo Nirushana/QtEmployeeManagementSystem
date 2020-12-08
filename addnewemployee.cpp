@@ -62,9 +62,11 @@ void addNewEmployee::on_addbtn_clicked()
     {
        QMessageBox::information(this,tr("Data Added to Database"), tr("Data saved Successfully"));
        conn.connClose();
+       close();
     }
     else{
         QMessageBox::critical(this,tr("error::"), qry.lastError().text());
+        close();
     }
 
 }

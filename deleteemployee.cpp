@@ -9,7 +9,6 @@ deleteemployee::deleteemployee(QWidget *parent) :
     ui->setupUi(this);
 
 
-    /*Load Data to the table*/
     MainWindow conn;
     QSqlQueryModel *model = new QSqlQueryModel();
 
@@ -57,8 +56,10 @@ void deleteemployee::on_deletebtn_clicked()
     {
        QMessageBox::information(this,tr("Data Deleted from Database"), tr("Data is Deleted Successfully"));
        conn.connClose();
+       close();
     }
     else{
         QMessageBox::critical(this,tr("error::"), qry.lastError().text());
+        close();
     }
 }

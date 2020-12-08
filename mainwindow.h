@@ -19,6 +19,7 @@ class MainWindow : public QMainWindow
     Q_OBJECT
 
 public:
+
     QSqlDatabase db;
     void connClose(){
         db.close();
@@ -26,9 +27,12 @@ public:
     }
     bool connOpen()
     {
+
+
         /*Database Conncetion*/
         QSqlDatabase db = QSqlDatabase::addDatabase("QSQLITE");
-        db.setDatabaseName("C:/Users/kavin/OneDrive/Desktop/My Dev/QT Projects/EmployeeManagementSystem/EmpMgSystem.db");   //The path for the database connection.
+        db.setDatabaseName("EmpMgSystem.db");   //The path for the database connection.
+
 
         /*TO check if the database connection is successfull or not*/
         if(!db.open()){
@@ -40,6 +44,7 @@ public:
             return true;
         }
     }
+    void loadtb();
 
 public:
     MainWindow(QWidget *parent = nullptr);

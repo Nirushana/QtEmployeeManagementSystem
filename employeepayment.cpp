@@ -54,8 +54,10 @@ void employeepayment::on_updatebtn_clicked()
     {
        QMessageBox::information(this,tr("Data Upodated to Database"), tr("Data Updated Successfully"));
        conn.connClose();
+       close();
     }
     else{
         QMessageBox::critical(this,tr("error::"), qry.lastError().text());
+        close();
     }
 }

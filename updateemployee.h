@@ -20,6 +20,10 @@ private slots:
 
     void on_comboBox_2_currentIndexChanged(const QString &arg1);
 
+    void on_radioButton_clicked();
+
+    void on_radioButton_2_clicked();
+
 private:
     Ui::updateemployee *ui;
 };
