@@ -6,20 +6,20 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>900</width>
+    <width>950</width>
     <height>700</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
-    <width>900</width>
-    <height>700</height>
+    <width>950</width>
+    <height>600</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
-    <width>1000</width>
-    <height>16777215</height>
+    <width>950</width>
+    <height>700</height>
    </size>
   </property>
   <property name="windowTitle">
@@ -32,16 +32,16 @@
    <widget class="QFrame" name="frame">
     <property name="geometry">
      <rect>
-      <x>0</x>
-      <y>80</y>
-      <width>733</width>
-      <height>484</height>
+      <x>9</x>
+      <y>90</y>
+      <width>784</width>
+      <height>461</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>0</width>
-      <height>300</height>
+      <width>350</width>
+      <height>200</height>
      </size>
     </property>
     <property name="maximumSize">
@@ -84,8 +84,8 @@
        </property>
        <property name="maximumSize">
         <size>
-         <width>600</width>
-         <height>16777215</height>
+         <width>400</width>
+         <height>30</height>
         </size>
        </property>
        <property name="styleSheet">
@@ -97,14 +97,14 @@
       <widget class="QLabel" name="empAD1lb">
        <property name="minimumSize">
         <size>
-         <width>300</width>
-         <height>20</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>16777215</width>
-         <height>20</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="font">
@@ -130,8 +130,8 @@
        </property>
        <property name="maximumSize">
         <size>
-         <width>600</width>
-         <height>16777215</height>
+         <width>400</width>
+         <height>30</height>
         </size>
        </property>
        <property name="styleSheet">
@@ -143,14 +143,14 @@
       <widget class="QLabel" name="empNumberlb">
        <property name="minimumSize">
         <size>
-         <width>300</width>
-         <height>25</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>16777215</width>
-         <height>20</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="font">
@@ -176,7 +176,7 @@
        </property>
        <property name="maximumSize">
         <size>
-         <width>600</width>
+         <width>400</width>
          <height>30</height>
         </size>
        </property>
@@ -189,14 +189,14 @@
       <widget class="QLabel" name="empAD2lb">
        <property name="minimumSize">
         <size>
-         <width>300</width>
-         <height>25</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>16777215</width>
-         <height>20</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="font">
@@ -222,8 +222,8 @@
        </property>
        <property name="maximumSize">
         <size>
-         <width>600</width>
-         <height>16777215</height>
+         <width>400</width>
+         <height>30</height>
         </size>
        </property>
        <property name="styleSheet">
@@ -235,14 +235,14 @@
       <widget class="QLabel" name="empDPlb">
        <property name="minimumSize">
         <size>
-         <width>300</width>
-         <height>25</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>16777215</width>
-         <height>20</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="font">
@@ -271,7 +271,7 @@
        </property>
        <property name="maximumSize">
         <size>
-         <width>600</width>
+         <width>400</width>
          <height>30</height>
         </size>
        </property>
@@ -284,14 +284,14 @@
       <widget class="QLabel" name="empEmaillb">
        <property name="minimumSize">
         <size>
-         <width>300</width>
-         <height>20</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>16777215</width>
-         <height>20</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="font">
@@ -311,13 +311,13 @@
       <widget class="QLabel" name="empIDlb">
        <property name="minimumSize">
         <size>
-         <width>300</width>
-         <height>25</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>300</width>
+         <width>250</width>
          <height>30</height>
         </size>
        </property>
@@ -344,8 +344,8 @@
        </property>
        <property name="maximumSize">
         <size>
-         <width>600</width>
-         <height>16777215</height>
+         <width>400</width>
+         <height>30</height>
         </size>
        </property>
        <property name="styleSheet">
@@ -357,13 +357,13 @@
       <widget class="QLabel" name="empNameld">
        <property name="minimumSize">
         <size>
-         <width>300</width>
-         <height>25</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>16777215</width>
+         <width>250</width>
          <height>30</height>
         </size>
        </property>
@@ -384,14 +384,14 @@
       <widget class="QLabel" name="empGenderlb">
        <property name="minimumSize">
         <size>
-         <width>300</width>
-         <height>25</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>16777215</width>
-         <height>20</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="font">
@@ -417,7 +417,7 @@
        </property>
        <property name="maximumSize">
         <size>
-         <width>600</width>
+         <width>400</width>
          <height>30</height>
         </size>
        </property>
@@ -431,13 +431,13 @@
        <property name="minimumSize">
         <size>
          <width>400</width>
-         <height>40</height>
+         <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
          <width>400</width>
-         <height>40</height>
+         <height>30</height>
         </size>
        </property>
        <property name="font">
@@ -515,14 +515,14 @@
       <widget class="QLabel" name="empBDlb">
        <property name="minimumSize">
         <size>
-         <width>300</width>
-         <height>25</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="maximumSize">
         <size>
-         <width>16777215</width>
-         <height>20</height>
+         <width>250</width>
+         <height>30</height>
         </size>
        </property>
        <property name="font">
@@ -541,6 +541,12 @@
      <item row="11" column="1">
       <widget class="QComboBox" name="comboBox">
        <property name="minimumSize">
+        <size>
+         <width>400</width>
+         <height>30</height>
+        </size>
+       </property>
+       <property name="maximumSize">
         <size>
          <width>400</width>
          <height>30</height>
@@ -587,68 +593,24 @@
      </item>
     </layout>
    </widget>
-   <widget class="QPushButton" name="addbtn">
-    <property name="geometry">
-     <rect>
-      <x>620</x>
-      <y>590</y>
-      <width>200</width>
-      <height>50</height>
-     </rect>
-    </property>
-    <property name="minimumSize">
-     <size>
-      <width>200</width>
-      <height>50</height>
-     </size>
-    </property>
-    <property name="maximumSize">
-     <size>
-      <width>200</width>
-      <height>50</height>
-     </size>
-    </property>
-    <property name="font">
-     <font>
-      <family>Orbitron</family>
-     </font>
-    </property>
-    <property name="autoFillBackground">
-     <bool>false</bool>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton{
-	color: rgb(191, 191, 191);
-	
-	background-color: rgb(80, 80, 80);
-}
-QPushButton:hover{
-	color: rgb(255, 255, 255);
-	background-color: rgb(170, 85, 255);
-}</string>
-    </property>
-    <property name="text">
-     <string>Add</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="cancelbtn">
     <property name="geometry">
      <rect>
-      <x>400</x>
+      <x>550</x>
       <y>590</y>
-      <width>200</width>
+      <width>150</width>
       <height>50</height>
      </rect>
     </property>
     <property name="minimumSize">
      <size>
-      <width>200</width>
+      <width>150</width>
       <height>50</height>
      </size>
     </property>
     <property name="maximumSize">
      <size>
-      <width>200</width>
+      <width>150</width>
       <height>50</height>
      </size>
     </property>
@@ -675,9 +637,9 @@ QPushButton:hover{
    <widget class="QLabel" name="label_11">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>20</y>
-      <width>571</width>
+      <x>9</x>
+      <y>9</y>
+      <width>591</width>
       <height>41</height>
      </rect>
     </property>
@@ -698,9 +660,9 @@ QPushButton:hover{
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>630</y>
-      <width>291</width>
-      <height>16</height>
+      <y>605</y>
+      <width>211</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="font">
@@ -716,13 +678,57 @@ QPushButton:hover{
      <string>Status</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="addbtn">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>590</y>
+      <width>150</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>150</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>150</width>
+      <height>50</height>
+     </size>
+    </property>
+    <property name="font">
+     <font>
+      <family>Orbitron</family>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+	color: rgb(191, 191, 191);
+	
+	background-color: rgb(80, 80, 80);
+}
+QPushButton:hover{
+	color: rgb(255, 255, 255);
+	background-color: rgb(170, 85, 255);
+}</string>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>900</width>
+     <width>950</width>
      <height>21</height>
     </rect>
    </property>
@@ -740,7 +746,6 @@ QPushButton:hover{
   <tabstop>empAD2txt</tabstop>
   <tabstop>comboBox</tabstop>
   <tabstop>cancelbtn</tabstop>
-  <tabstop>addbtn</tabstop>
   <tabstop>radioButton_2</tabstop>
  </tabstops>
  <resources/>
